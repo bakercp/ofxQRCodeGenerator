@@ -11,6 +11,6 @@ public:
     void setup() override;
     void draw() override;
 
-    ofxQRCodeGenerator qr;
+    std::vector<ofxQRCodeGenerator> codes;
 
 };
